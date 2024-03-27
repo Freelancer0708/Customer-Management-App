@@ -1,0 +1,54 @@
+.products {
+    list-style: none;
+    width: 100%;
+    overflow-y: scroll;
+}
+.item {
+    list-style: none;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px 2%;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+  
+.modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+}
+  
+.modalButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.modalButton:hover {
+    background-color: #0056b3;
+}
+  
